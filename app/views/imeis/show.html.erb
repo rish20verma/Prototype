@@ -1,0 +1,7 @@
+<h2>Imei: <%= @imei.imei %></h2>
+<h2>Month Year<%= @imei.month_year %></h2>
+<h2>Result: <%= @imei.result %></h2>
+
+<% if @imei.result === "Bad" %>
+    <%= render 'fraud' %>
+<% end %>

@@ -1,0 +1,17 @@
+<h1>New Data</h1>
+
+<%= form_with model: @imei do |form| %>
+  <div>
+    <%= form.label :imei %><br>
+    <%= form.text_field :imei %>
+  </div>
+
+  <div>
+    <%= form.label :month_year %><br>
+    <%= form.text_field :month_year %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

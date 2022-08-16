@@ -1,0 +1,2 @@
+class Imei < ApplicationRecord
+end

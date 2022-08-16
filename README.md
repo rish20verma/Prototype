@@ -12,4 +12,4 @@ sample data: imei = '490154203237518', expiry: '02/20'
 Classify::Classify.new(imei, expiry).fraudulent?
 
 - Testing
-  If you want to check gem in local development you need to put this repo and gem in the same folder.
+  Alredy push the gem code in github, if you want to check use this zip to test.

@@ -1,5 +1,6 @@
-PATH
-  remote: ../classify
+GIT
+  remote: https://github.com/rish20verma/Classify.git
+  revision: e8b6508720b52d3df657b6f36514c3ec654224fa
   specs:
     classify (0.0.0)
 

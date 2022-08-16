@@ -24,7 +24,7 @@ gem 'turbolinks'
 
 gem "pry"
 
-gem "classify", path: '../classify'
+gem 'classify', :git => 'https://github.com/rish20verma/Classify.git'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"

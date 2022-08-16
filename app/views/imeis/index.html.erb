@@ -1,0 +1,10 @@
+<h1>Data</h1>
+<%= link_to "New Data", new_imei_path %>
+
+<ul>
+  <% @imeis.each do |imei| %>
+    <li>
+        <%= link_to imei.imei, imei %>
+    </li>
+  <% end %>
+</ul>
