@@ -12,4 +12,5 @@ sample data: imei = '490154203237518', expiry: '02/20'
 Classify::Classify.new(imei, expiry).fraudulent?
 
 - Testing
-  Alredy push the gem code in github, if you want to check use this zip to test.
+  Alredy push the gem code in github: https://github.com/rish20verma/Classify
+  For testing added gem code in lib folder.
